@@ -20,6 +20,7 @@
     "umi": "^4.0.70"
   },
   "devDependencies": {
+    "@types/postcss-pxtorem": "^6.0.0",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "postcss-px-to-viewport": "^1.1.1",
