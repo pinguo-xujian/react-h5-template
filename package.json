@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "author": "pinguo-xujian <xujian@camera360.com>",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "antd-mobile": "^5.30.0",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "compressorjs": "^1.2.1",
+    "dayjs": "^1.11.8",
+    "lodash": "^4.17.21",
+    "react-easy-crop": "^4.7.4",
+    "react-virtualized": "^9.22.5",
+    "umi": "^4.0.70"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^6.0.0",
+    "typescript": "^5.0.3",
+    "vconsole": "^3.15.1"
+  }
+}
