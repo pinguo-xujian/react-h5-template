@@ -1,0 +1,33 @@
+.pg-video {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  :global {
+    .IIV::-webkit-media-controls-play-button,
+    .IIV::-webkit-media-controls-start-playback-button {
+      opacity: 0;
+      pointer-events: none;
+      width: 5px;
+    }
+    .video {
+      height: 100%;
+      object-fit: scale-down;
+    }
+    .pg-video-loading {
+      display: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .show {
+      display: block;
+    }
+  }
+}

@@ -7,3 +7,7 @@
 /src/.umi-test
 /dist
 .swc
+/.idea
+/.vscode
+/yarn-error.log
+/*.log
