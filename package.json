@@ -12,11 +12,8 @@
     "antd-mobile": "^5.30.0",
     "axios": "^1.4.0",
     "classnames": "^2.3.2",
-    "compressorjs": "^1.2.1",
     "dayjs": "^1.11.8",
     "lodash": "^4.17.21",
-    "react-easy-crop": "^4.7.4",
-    "react-virtualized": "^9.22.5",
     "umi": "^4.0.70"
   },
   "devDependencies": {
